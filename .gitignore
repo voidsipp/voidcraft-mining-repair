@@ -1,0 +1,10 @@
+.gradle/
+build/
+libs/*.jar
+.idea/
+*.iml
+run/
+logs/
+*.nbt
+*.tmp
+*.intent

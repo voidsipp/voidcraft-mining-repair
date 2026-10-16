@@ -1,0 +1,5 @@
+* text=auto
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+# Preserve the exact reviewed production inputs and packaged resource bytes.
+src/main/** -text

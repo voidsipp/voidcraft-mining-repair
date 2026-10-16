@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="voidcraft_wand_compat"
+version="1.0.3"
+displayName="VoidCraft Wand Compatibility"
+description='''Server-only nested Wand break protection and exception-safe Ultimine drop capture for exact reviewed releases.'''
+[[mixins]]
+config="voidcraft-wand-compat.mixins.json"
+[[dependencies.voidcraft_wand_compat]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.121]"
+ordering="NONE"
+side="SERVER"
+[[dependencies.voidcraft_wand_compat]]
+modId="ftbultimine"
+type="required"
+versionRange="[26.1.2.5]"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.voidcraft_wand_compat]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+ordering="NONE"
+side="SERVER"
+[[dependencies.voidcraft_wand_compat]]
+modId="architectural_building_wand"
+type="required"
+versionRange="[1.3]"
+ordering="AFTER"
+side="SERVER"

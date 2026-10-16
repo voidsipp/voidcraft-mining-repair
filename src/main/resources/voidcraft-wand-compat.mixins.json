@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "net.voidcraft.wandcompat.mixin",
+  "plugin": "net.voidcraft.wandcompat.WandCompatibilityPlugin",
+  "compatibilityLevel": "JAVA_25",
+  "priority": 900,
+  "server": ["NestedWandBreakMixin", "UltimineCaptureMixin", "ItemCollectorAccessor"],
+  "injectors": {"defaultRequire": 1}
+}

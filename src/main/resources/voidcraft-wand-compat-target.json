@@ -1,0 +1,14 @@
+{
+  "mod_id": "architectural_building_wand",
+  "version": "1.3",
+  "jar_sha256": "ce80818c091c925d7f172f70a14f99423c923858c2cea3d56776a313bc0640a4",
+  "minecraft": "26.1.2",
+  "neoforge": "26.1.2.121",
+  "ultimine_version": "26.1.2.5",
+  "ultimine_jar_sha256": "2c5169a6f082338359f8c1249288a8420a87f9cdeec96fd1c2d983b17236c88f",
+  "original_mixin_priority": 1000,
+  "compatibility_mixin_priority": 900,
+  "state_field": "architectural_building_wand$brokenState",
+  "entity_field": "architectural_building_wand$brokenEntity",
+  "persistent_state_changes": "None on success; failed Ultimine operations are saved in a private held NBT record, never automatically replayed"
+}
